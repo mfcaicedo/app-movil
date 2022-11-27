@@ -1,5 +1,5 @@
 import 'package:app_turistica/pages/navpages/bar_item_page.dart';
-import 'package:app_turistica/pages/home_page.dart';
+import 'package:app_turistica/pages/home/home_page.dart';
 import 'package:app_turistica/pages/navpages/my_page.dart';
 import 'package:app_turistica/pages/navpages/search_page.dart';
 import 'package:flutter/material.dart';

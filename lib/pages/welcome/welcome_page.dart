@@ -3,8 +3,8 @@ import 'package:app_turistica/widgets/app_text.dart';
 import 'package:app_turistica/widgets/responsive_button.dart';
 import 'package:flutter/material.dart';
 
-import '../misc/colors.dart';
-import '../widgets/app_large_text.dart';
+import '../../misc/colors.dart';
+import '../../widgets/app_large_text.dart';
 
 
 class WelcomePage extends StatefulWidget {

@@ -5,7 +5,7 @@ import 'package:app_turistica/widgets/responsive_button.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/app_buttons.dart';
+import '../../widgets/app_buttons.dart';
 
 class DetailPage extends StatefulWidget {
   const DetailPage({Key? key}) : super(key: key);

@@ -1,23 +1,33 @@
-import 'package:app_turistica/pages/detail_page.dart';
-import 'package:app_turistica/pages/home_page.dart';
-import 'package:app_turistica/pages/login_page.dart';
+import 'package:app_turistica/pages/detail_page/detail_page.dart';
+import 'package:app_turistica/pages/home/home_page.dart';
+import 'package:app_turistica/pages/sign_in/login_page.dart';
 import 'package:app_turistica/pages/navpages/main_page.dart';
-import 'package:app_turistica/pages/welcome_page.dart';
+import 'package:app_turistica/pages/welcome/welcome_page.dart';
+import 'package:app_turistica/services/auth.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'app/app.dart';
+import 'firebase_options.dart';
 
-void main() {
-  runApp(const MyApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp();
+  runApp(const App());
 }
-
+/*
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
+
+      return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'Flutter Demo',
+          theme: ThemeData(
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
@@ -29,13 +39,21 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
+      /*
       initialRoute: LoginPage.id,
       routes: {
         LoginPage.id: (context)=>LoginPage(),
       },
-      //home: DetailPage()
+      */
+
+      home: GoogleAuthenticator()
     );
+
+
+
   }
 }
+ */
+
 
 

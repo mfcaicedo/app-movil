@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "804487813205",
+    "project_id": "autenticacionappmovil",
+    "storage_bucket": "autenticacionappmovil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804487813205:android:27b1d35ffb4e90adfc9cdc",
+        "android_client_info": {
+          "package_name": "com.example.app_turistica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804487813205-8bl310d7qmfueqijktp4otvo2jjl48fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzvxGHa-61cQn5qepuClY68qgvUdr4j3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804487813205-8bl310d7qmfueqijktp4otvo2jjl48fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
